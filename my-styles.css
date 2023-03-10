@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: space-evenly;
+  }
+  /*A "Flexible Layout" must have a parent element with the display property set to flex.*/
+  
+  .flex-container > div { /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
+    /* background-color: #f1f1f1; */
+    width:300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-image: url("images/akitsushima.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px; /*adds curves to cards*/
+  }
+
+  .flex-container h3 { /*a space instead of a ">" will select all descendants of .flex-container elements*/
+  margin: 10%;;
+  font-size: 50px;
+  }
+
+  .flex-container button { /*a space instead of a ">" will select all descendants of .flex-container elements*/
+    border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  background: none;
+    }
+
+    .buttonimage {
+        width: 15%;
+        float: right;
+        margin:2.5% 2.5%;
+    }
+
+    /* .gallerybutton {
+        width: 15%;
+        float: right;
+        margin:5% 10%;
+    } */
+
+    .buttonimage:active {
+        filter: brightness(50%);
+    }
+
+    /* .gallerybutton:active {
+        filter: brightness(50%);
+    } */
