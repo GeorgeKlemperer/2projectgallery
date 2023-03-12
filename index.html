@@ -2,9 +2,16 @@
 <html>
 <head>
 <link rel="stylesheet" href="my-styles.css">
-<style>
 
-</style>
+<script>
+    // When the user clicks on div, open the popup
+    function popupFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+    
+
 </head>
 
 
@@ -15,9 +22,16 @@
 <h1>Project Gallery</h1>
 
 <div class="flex-container">
+
   <div>
 <h3>Hobby Page</h3>
-<button><img class="buttonimage" src="images/infobutton.png" alt="info" size=5px/></button>
+<div class="popup" onclick="popupFunction()">
+<button>
+    <img class="buttonimage" src="images/infobutton.png" alt="info" size=5px/>
+    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+</button>
+</div>
+
   </div>
 
   <div>
