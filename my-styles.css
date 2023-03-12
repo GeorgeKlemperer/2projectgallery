@@ -1,10 +1,11 @@
 .flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color: white;
     justify-content: space-evenly;
   }
   /*A "Flexible Layout" must have a parent element with the display property set to flex.*/
+  /* by default flex items are laid out in source order */
   
   .flex-container > div { /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
     /* background-color: #f1f1f1; */
@@ -21,7 +22,8 @@
 
   .flex-container h3 { /*a space instead of a ">" will select all descendants of .flex-container elements*/
   margin: 10%;;
-  font-size: 50px;
+  font-size: 100%;
+  mix-blend-mode: darken;
   }
 
   .flex-container button { /*a space instead of a ">" will select all descendants of .flex-container elements*/
