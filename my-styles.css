@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap');
+
+    html {
+    font-size: 16px;
+    font-family: "Newsreader", serif;
+    }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
