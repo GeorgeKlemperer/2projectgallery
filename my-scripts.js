@@ -4,6 +4,11 @@
     popup.classList.toggle("reveal");
   }
 
+  function popupFunction2() {
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("reveal");
+  }
+
 
   function popupFunction3() {
     var popup = document.getElementById("myPopup3");

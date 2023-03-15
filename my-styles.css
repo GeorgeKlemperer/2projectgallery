@@ -33,16 +33,30 @@
     text-align: center;
     line-height: normal;
     font-size: 30px;
+    border-radius: 25px; /*adds curves to cards*/
+  }
+
+  .flex-container > .fc1 {
     background-image: url("images/akitsushima.jpeg");
     /* background-repeat: no-repeat; */
     background-position: center;
-    border-radius: 25px; /*adds curves to cards*/
+    background-size: 800px;
+    color:black
   }
+
+  .flex-container > .fc2 {
+    background-image: url("images/moviedataimage.jpg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: 400px;
+    color: white; 
+  }
+
 
   .flex-container h3 { /*a space instead of a ">" will select all descendants of .flex-container elements*/
   margin: 10%;;
   font-size: 100%;
-  mix-blend-mode: darken;
+  /* mix-blend-mode: darken; */
   padding: 20px 0;
   }
 
