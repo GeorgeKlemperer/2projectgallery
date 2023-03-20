@@ -52,6 +52,14 @@
     color: white; 
   }
 
+  .flex-container > .fc4 {
+    background-image: url("images/favicon.png");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: auto;
+    color: red; 
+  }
+
 
   .flex-container h3 { /*a space instead of a ">" will select all descendants of .flex-container elements*/
   margin: 10%;;
@@ -95,10 +103,10 @@
     border-radius: 10px;
     padding: 8px 0;
 
-    position: absolute;
-  bottom: 80%;
-  left: 50%;
-  margin-left: -80px;
+    position: relative;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -80px;
   }
   
 .popup .reveal {

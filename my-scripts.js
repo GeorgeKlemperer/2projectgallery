@@ -9,8 +9,12 @@
     popup.classList.toggle("reveal");
   }
 
-
   function popupFunction3() {
     var popup = document.getElementById("myPopup3");
+    popup.classList.toggle("reveal");
+  }
+
+  function popupFunction4() {
+    var popup = document.getElementById("myPopup4");
     popup.classList.toggle("reveal");
   }
