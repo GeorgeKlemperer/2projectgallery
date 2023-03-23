@@ -48,7 +48,16 @@
     background-image: url("images/moviedataimage.jpg");
     /* background-repeat: no-repeat; */
     background-position: center;
+    background-size: cover;
+    color: white; 
+  }
+
+  .flex-container > .fc3 {
+    background-image: url("images/ponggame.png");
+    /* background-repeat: no-repeat; */
+    background-position: center;
     background-size: 400px;
+    background-size: cover;
     color: white; 
   }
 
