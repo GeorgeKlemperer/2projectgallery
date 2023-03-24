@@ -5,7 +5,7 @@
     font-family: "Newsreader", serif;
     }
 
-.flex-container {
+.pgallerycontainer {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -15,7 +15,7 @@
   /* by default flex items are laid out in source order */
 
   @media (max-width: 600px) {
-    .flex-container {
+    .pgallerycontainer {
       flex-direction: column;
       align-content: center;
     }
@@ -24,7 +24,7 @@
   /* This @media rule will change "flex-container" to a column when viewport < "max-width"*/
 
 
-  .flex-container > div { /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
+  .pgallerycontainer > div { /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
     /* background-color: #f1f1f1; */
     flex: auto;
     width:300px;
@@ -36,7 +36,7 @@
     border-radius: 25px; /*adds curves to cards*/
   }
 
-  .flex-container > .fc1 {
+  .pgallerycontainer > .fc1 {
     background-image: url("images/akitsushima.jpeg");
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -44,7 +44,7 @@
     color:black
   }
 
-  .flex-container > .fc2 {
+  .pgallerycontainer > .fc2 {
     background-image: url("images/moviedataimage.jpg");
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -52,7 +52,7 @@
     color: white; 
   }
 
-  .flex-container > .fc3 {
+  .pgallerycontainer > .fc3 {
     background-image: url("images/ponggame.png");
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -61,7 +61,7 @@
     color: white; 
   }
 
-  .flex-container > .fc4 {
+  .pgallerycontainer > .fc4 {
     background-image: url("images/favicon.png");
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -70,14 +70,14 @@
   }
 
 
-  .flex-container h3 { /*a space instead of a ">" will select all descendants of .flex-container elements*/
+  .pgallerycontainer h3 { /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
   margin: 10%;;
   font-size: 100%;
   /* mix-blend-mode: darken; */
   padding: 20px 0;
   }
 
-  .flex-container button { /*a space instead of a ">" will select all descendants of .flex-container elements*/
+  .pgallerycontainer button { /*a space instead of a ">" will select all descendants of .flex-container elements*/
     border: none;
   appearance: none;
   background-color: inherit;
@@ -89,7 +89,7 @@
         cursor: pointer;
         float: right;
         margin:2.5% 2.5%;
-        padding: 20px 10px;
+        padding: 0;
     }
 
     .buttonimage:active {
